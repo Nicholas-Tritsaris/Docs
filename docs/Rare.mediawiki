@@ -1,0 +1,38 @@
+Rare is an open source alternative for Epic Games Launcher, using '''Legendary'''. It provides a graphical interface for Legendary, a command line alternative to Epic Games launcher, written in '''PySide6'''. Rare aims to be a lightweight and feature-full experience, integrating seamlessly with Legendary. The project is developed in '''Python''' and supports most major platforms.
+
+== Overview ==
+Rare is designed to be a native application that runs on major platforms, allowing users to enjoy their games without the need for the Epic Games Launcher. The project is built on top of Legendary, a command line alternative to the Epic Games Launcher, and provides a graphical interface for users to interact with.
+
+=== Why Rare? ===
+The reasons for using Rare include:
+* '''Native support''': Rare runs natively on most major platforms.
+* '''Lightweight''': Rare is designed to be as lightweight as possible while still offering a feature-full experience.
+* '''Seamless integration''': Rare integrates seamlessly with Legendary, as both projects are developed in '''Python'''.
+* '''Packages''': Rare provides access to a wide range of packages.
+
+== Features ==
+Rare offers a range of features, including:
+* A graphical interface for Legendary
+* Support for most major platforms
+* A lightweight and feature-full experience
+* Seamless integration with Legendary
+* Access to a wide range of packages
+
+== Screenshots ==
+The following screenshots demonstrate the features and interface of Rare:
+| Game covers                                   | Vertical list                                 |
+|-----------------------------------------------|-----------------------------------------------|
+| [[File:RareLibraryIcon.png]]                  | [[File:RareLibraryList.png]]                  |
+| Game details                               | Game settings                                  |
+|--------------------------------------------|------------------------------------------------|
+| [[File:RareGameInfo.png]]                    | [[File:RareGameSettings.png]]                 |
+| Downloads                                   | Application settings                       |
+|---------------------------------------------|--------------------------------------------|
+| [[File:RareDownloads.png]]                   | [[File:RareSettings.png]]                    |
+
+== Installation ==
+Rare can be installed on various platforms. 
+=== Windows ===
+There is an ''.msi'' installer available for Windows.
+
+For more information and to download Rare, please visit the [https://github.com/RareDevs/Rare GitHub repository]. You can also join the [https://discord.gg/YvmABK9YSk Discord server] for discussion and support. The Rare logo was designed by ''@MultisampledNight'' and is licensed under ''CC BY-SA 4.0'', available [https://github.com/RareDevs/Rare/blob/main/docs/assets/ here].

@@ -1,0 +1,20 @@
+Douyin Downloader is a '''cross-platform''' download tool built with [Tauri](https://github.com/tauri-apps/tauri) that allows users to download videos from Douyin. The application is available for '''Windows''', '''MacOS''', and '''Linux''' platforms. It provides a simple and intuitive interface for users to download their desired videos.
+
+== Overview ==
+The Douyin Downloader is a '''free''' and '''open-source''' tool that utilizes the [Tauri](https://github.com/tauri-apps/tauri) framework to provide a seamless user experience across different platforms. The application's primary function is to enable users to download Douyin videos with ease.
+
+=== Features ===
+The Douyin Downloader boasts several key features, including:
+* '''Cross-platform compatibility''': The application is available for '''Windows''', '''MacOS''', and '''Linux''' platforms, making it accessible to a wide range of users.
+* '''Simple interface''': The tool provides an intuitive and user-friendly interface that allows users to download videos with minimal effort.
+* '''Support for multiple platforms''': The application supports downloading videos from Douyin, making it a versatile tool for users.
+
+== Installation ==
+To install the Douyin Downloader, users can either download the pre-built binary from the [release](https://github.com/lzdyes/douyin-downloader/releases) page or build it themselves from the source code. The application supports '''Windows x64''', '''Linux x86_64''', and '''macOS 10.13+'''. Users should note that they need to have [Webview2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section) installed on their Windows system to run the application.
+
+== Screenshots ==
+The Douyin Downloader's interface is showcased in the following screenshots:
+![](docs/screenshots/windows_1.png)
+![](docs/screenshots/windows_2.png)
+![](docs/screenshots/windows_3.png)
+These screenshots demonstrate the application's simplicity and ease of use.

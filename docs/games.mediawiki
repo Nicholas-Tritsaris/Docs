@@ -1,0 +1,23 @@
+A collection of '''HTML5''' games, the games repository is an open-source project that provides a set of old style addictive games written in '''JavaScript''', '''HTML''', and '''CSS'''. The repository allows users to play and have fun with these games, which can be accessed through a web interface. This collection of games is a great example of how '''HTML5''' can be used to create engaging and interactive games. The games are available to play online, and the repository is a valuable resource for anyone interested in '''game development''' or looking for a fun way to pass the time.
+
+== Overview ==
+The games repository is a collection of old style addictive games that are written in '''JavaScript''', '''HTML''', and '''CSS'''. These games are designed to be played in a web browser, and they provide a fun and interactive way to pass the time. The repository is a great example of how '''HTML5''' can be used to create engaging and interactive games, and it is a valuable resource for anyone interested in '''game development'''.
+
+=== Key Features ===
+The games repository has several key features that make it a great resource for game developers and players alike. These features include:
+* A collection of old style addictive games written in '''JavaScript''', '''HTML''', and '''CSS'''
+* Games that can be played in a web browser
+* A fun and interactive way to pass the time
+* A valuable resource for anyone interested in '''game development'''
+
+== Features ==
+The games repository has a number of features that make it a great resource for game developers and players. Some of the key features include:
+* '''Addictive gameplay''': The games in the repository are designed to be addictive and engaging, making them a great way to pass the time.
+* '''HTML5 compatibility''': The games are written in '''HTML5''', making them compatible with a wide range of devices and browsers.
+* '''Open-source''': The repository is open-source, making it easy for developers to contribute to the project and modify the games to suit their needs.
+
+== Installation ==
+To play the games, users do not need to install anything. The games can be played online by visiting the [http://tommalbran.github.io/games/ repository website]. This makes it easy for users to access and play the games without having to worry about installation or setup.
+
+== Play ==
+To play the games, users can simply visit the [http://tommalbran.github.io/games/ repository website] and start playing. The games are available to play for free, and users can have fun playing the games without having to pay anything. The repository is a great resource for anyone looking for a fun and interactive way to pass the time.

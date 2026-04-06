@@ -1,0 +1,18 @@
+Plexus-Shaders is a '''WebGL''' Chrome Experiment that utilizes '''ThreeJS''', '''Fragment Shaders''', and '''Vertex Shaders''' to create a stress-test '''music visualizer''' for modern '''graphics cards'''. This tech demo is designed to push the limits of '''ThreeJS''' technology on modern '''video-cards''', featuring a particle system and post-processing shaders. It is optimized for '''Google Chrome''' but is also compatible with '''Firefox'''. A live demo of the project can be found [here](http://mgz.me/plexus-shaders).
+
+== Overview ==
+The plexus-shaders project is a WebGL tech demo that showcases the capabilities of modern graphics cards. It was created using '''ThreeJS''' and features a combination of '''Vertex Shaders''' and '''Fragment Shaders''' to generate a visually striking music visualizer. The project includes a particle system and post-processing shaders, making it an ideal stress test for '''ThreeJS''' technology.
+
+=== Features ===
+* '''Music Visualizer''': A dynamic visual representation of music, generated using '''Fragment Shaders''' and '''Vertex Shaders'''.
+* '''Particle System''': A system of particles that interact with the music visualizer, creating a unique and immersive experience.
+* '''Post-processing Shaders''': A set of shaders that apply effects to the final rendered image, enhancing the overall visual quality.
+* '''Optimized for Modern Graphics Cards''': The project is designed to take advantage of the capabilities of modern '''graphics cards''', ensuring a smooth and seamless experience.
+
+== Installation ==
+To run the plexus-shaders project, simply visit the [live demo](http://mgz.me/plexus-shaders) in a compatible browser, such as '''Google Chrome''' or '''Firefox'''. No installation is required, as the project is a web-based application.
+
+=== System Requirements ===
+* A modern '''graphics card''' with support for '''WebGL''' and '''ThreeJS'''.
+* A compatible browser, such as '''Google Chrome''' or '''Firefox'''.
+* A stable internet connection to access the live demo.

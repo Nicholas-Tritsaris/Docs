@@ -1,0 +1,54 @@
+WHASOS is a 64‑bit operating system for x86‑64 (AMD64) with a Windows 7–like desktop experience, designed to provide a secure and classified-grade operating system for integration into a high‑security game environment. The system combines workplace health and safety compliance infrastructure, government‑grade access control systems, SCP‑style anomaly containment documentation, and intelligence‑agency‑inspired secure operating architecture.
+
+== Overview ==
+WHASOS is a secure operating system project that aims to provide a functional operating system architecture with multi‑tier clearance authentication and a secure documentation system. The system is designed to simulate restricted federal infrastructure, with features such as system lockdown, activity logging, account suspension, simulated prosecution notices, and clearance revocation.
+
+=== Features ===
+The key features of WHASOS include:
+* A Windows 7–like desktop experience
+* A secure operating system architecture
+* Multi‑tier clearance authentication
+* SCP‑style secure documentation system
+* Government‑grade access control systems
+* Workplace health and safety compliance infrastructure
+
+== Installation ==
+To install WHASOS, follow these steps:
+1. Build C components with '''Visual Studio 2022''' (see [[Documentation#Build Prerequisites|docs/BUILD_VS2022.md]]).
+2. Build ISO on '''Ubuntu 24.04''': `./scripts/build_iso.sh 1.0`
+3. Create a '''VirtualBox''' VM and attach `output/whacos-1.0-amd64.iso`
+4. Boot and install or run live.
+
+=== System Requirements ===
+The system requirements for WHASOS include:
+* '''Ubuntu 24.04 LTS''' (or '''Debian 12''' / '''Fedora 40''')
+* '''sudo/root access'''
+* ~10 GB free disk space
+* Install dependencies: `debootstrap xorriso grub-pc-bin grub-efi-amd64-bin squashfs-tools rsync wget build-essential`
+
+== Project Structure ==
+The project structure of WHASOS is as follows:
+WHAOS/
+├── boot/grub/
+├── docs/
+├── scripts/
+├── src/
+│   ├── desktop/
+│   ├── init/
+│   ├── installer/
+│   └── kernel/
+└── output/
+
+== Documentation ==
+The documentation for WHASOS can be found in the following files:
+* [[ARCHITECTURE.md]]
+* [[HOWTOBUILD.md]]
+* [[ASSUMPTIONS.md]]
+* [[FILESYSTEM.md]]
+* [[USERS_AND_SECURITY.md]]
+* [[CORE_APPS.md]]
+* [[INPUT.md]]
+* [[VIRTUALBOX.md]]
+
+== Access Warning ==
+'''Unauthorized access attempts may trigger system lockdown, activity logging, account suspension, simulated prosecution notices, and clearance revocation.''' All activity is logged and audited.

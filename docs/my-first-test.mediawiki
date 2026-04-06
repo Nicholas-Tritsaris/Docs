@@ -1,0 +1,18 @@
+My First Test is a simple '''Hello World''' project hosted on [GitHub]. The project is described as a dark minimal page with centered text, built using basic web development technologies.
+
+== Overview ==
+The project is a basic implementation of a web page, focusing on simplicity and ease of use. It is designed to be a starting point for further development and experimentation.
+
+=== Features ===
+The project features a minimalistic design, with a focus on '''HTML''' and '''CSS'''. The page is centered, with a dark theme, providing a clean and simple user interface. The key technologies used in this project include:
+* '''HTML''': used for structuring the content
+* '''CSS''': used for styling the page
+
+== Installation ==
+To use this project, users can clone the repository from [GitHub] and open the '''HTML''' file in a web browser. No additional installation or setup is required.
+
+== See Also ==
+* [GitHub]
+* [[Web Development]]
+* [[HTML]]
+* [[CSS]]

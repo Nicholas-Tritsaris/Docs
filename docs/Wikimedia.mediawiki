@@ -1,0 +1,21 @@
+WikiBlueboop is a static site that renders MediaWiki markdown, or Wikitext, on the fly, allowing users to create and access Wikipedia-like articles with a unique "blueboop" theme. The site stores articles in the `content/` directory as `.mw` files and can be accessed via `index.html#/Article_Name`. Inspired by [blueboop.is-a.dev](https://blueboop.is-a.dev), WikiBlueboop provides a simple and customizable platform for creating and sharing knowledge.
+
+== Overview ==
+WikiBlueboop is designed to mimic the functionality of Wikipedia, with a focus on ease of use and customization. The site uses Wikitext syntax for formatting, allowing users to create complex articles with '''bold''' headings, ''italic'' emphasis, and [[internal links]].
+
+=== Features ===
+* '''Static site generation''': WikiBlueboop renders articles on the fly, eliminating the need for a database or complex backend infrastructure.
+* '''Wikitext support''': The site supports standard Wikitext syntax, making it easy for users to create and edit articles.
+* '''Customizable theme''': Inspired by [blueboop.is-a.dev](https://blueboop.is-a.dev), the site's "blueboop" theme provides a unique and visually appealing interface.
+
+== Installation ==
+To get started with WikiBlueboop, simply clone the repository and access the site via `index.html`. There is no need for complex installation or setup.
+
+== Adding Content ==
+To add new content to WikiBlueboop, follow these steps:
+1. Create a new `.mw` file in the `content/` folder (e.g., `My_Article.mw`).
+2. Use Wikitext syntax for formatting, including '''bold''' headings, ''italic'' emphasis, and [[internal links]].
+3. Access the article via `index.html#/My_Article`.
+
+== Theme ==
+The WikiBlueboop theme is inspired by [blueboop.is-a.dev](https://blueboop.is-a.dev) and provides a unique and customizable interface for the site. Users can modify the theme to suit their needs, making it easy to create a personalized Wikipedia-like experience.

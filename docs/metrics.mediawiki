@@ -1,0 +1,31 @@
+Metrics is a comprehensive infographics generator that provides a wide range of options to display statistics about GitHub accounts. With over 30 plugins and 300 options, it allows users to customize and render their metrics as SVG, Markdown, PDF, or JSON. This tool supports users, organizations, and repositories, making it a versatile solution for various use cases. The metrics generator can be embedded everywhere, including GitHub profile readmes, and offers a high degree of customizability.
+
+== Overview ==
+The metrics generator is designed to provide a detailed overview of GitHub account activity. It supports various account types, including user accounts, organization accounts, and repositories. The tool offers a range of visualization options, allowing users to choose the format that best suits their needs.
+
+=== Key Features ===
+The metrics generator offers several key features, including:
+* Support for multiple account types (users, organizations, repositories)
+* Over 30 plugins to customize the metrics display
+* More than 300 options to tailor the output to specific needs
+* Various output formats (SVG, Markdown, PDF, JSON)
+* Embeddable in GitHub profile readmes and other locations
+
+== Features ==
+The metrics generator offers a wide range of features that make it a powerful tool for displaying GitHub account statistics. Some of the notable features include:
+* '''Customizable plugins''': With over 30 plugins available, users can choose the ones that best fit their needs. Examples of plugins include the ''isocalendar'' plugin, which displays a commit calendar, and the ''languages'' plugin, which shows language activity.
+* '''Multiple output formats''': The metrics generator allows users to render their metrics in various formats, including SVG, Markdown, PDF, and JSON.
+* '''Support for multiple account types''': The tool supports user accounts, organization accounts, and repositories, making it a versatile solution for different use cases.
+
+== Installation ==
+To use the metrics generator, users can follow these steps:
+* Visit the [https://github.com/lowlighter/metrics GitHub repository] to access the tool.
+* Follow the instructions in the README file to set up and configure the metrics generator.
+* Choose the desired plugins and options to customize the output.
+* Embed the generated metrics in the desired location, such as a GitHub profile readme.
+
+== Examples ==
+The metrics generator offers several example use cases, including:
+* '''User account metrics''': The tool can be used to display metrics for individual user accounts, such as commit activity and language usage.
+* '''Organization account metrics''': The metrics generator can also be used to display metrics for organization accounts, providing insights into the activity of the organization as a whole.
+* '''Repository metrics''': The tool can be used to display metrics for specific repositories, offering a detailed view of the repository's activity and statistics.

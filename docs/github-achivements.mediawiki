@@ -1,0 +1,25 @@
+GitHub Achievements is a dedicated repository for a full list of '''GitHub profile badges and achievements''' written in multiple languages. The repository provides a comprehensive list of achievements that can be earned by developers on the '''GitHub''' platform, including the '''Mars 2020 Helicopter Mission badge''' and the '''Arctic Code Vault''' badge.
+
+== Overview ==
+The '''GitHub Achievements''' repository was created in response to the launch of the '''Ingenuity''' Mars Helicopter and the introduction of the '''Achievements section''' to the '''GitHub profile'''. This section aims to recognize and celebrate the various stages of a developer's coding journey on the '''GitHub''' platform. The repository is available in beta and provides a new way for developers to celebrate their growth in '''open source'''.
+
+=== History ===
+The '''Achievements section''' was first announced by '''GitHub''' on April 19, 2021, with the launch of the '''Mars 2020 Helicopter Mission badge''', the '''Arctic Code Vault''' badge, and a badge for sponsoring '''open source''' work via '''GitHub Sponsors'''. On July 9, 2022, '''GitHub''' announced more '''Achievements''', but without specific criteria. The repository is constantly updated to reflect new '''Achievements''' and provides a comprehensive list of all available badges.
+
+== Features ==
+The '''GitHub Achievements''' repository provides the following features:
+* A comprehensive list of '''GitHub profile badges and achievements'''
+* Support for multiple languages, including '''EN-US''' and '''PT-BR'''
+* A list of available '''Achievements''' with descriptions and criteria
+* A way for developers to celebrate their growth in '''open source'''
+
+=== Languages ===
+The repository is available in multiple languages, including:
+* '''EN-US''': [https://github.com/github-achivements/README.md English]
+* '''PT-BR''': [https://github.com/github-achivements/README-PT-BR.md Portuguese (Brazil)]
+
+== Installation ==
+To access the '''GitHub Achievements''' repository, simply visit the [https://github.com/github-achivements GitHub page] and navigate to the '''README''' file for your preferred language. The repository is available in beta and does not require any installation.
+
+== Contributing ==
+If you see something not listed in the repository or is incorrect, please open an [https://github.com/github-achivements/issues issue] to report it. The repository is constantly updated to reflect new '''Achievements''' and provides a comprehensive list of all available badges.

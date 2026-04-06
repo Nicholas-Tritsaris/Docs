@@ -1,0 +1,30 @@
+Douyin Downloader is a '''cross-platform''' download tool for Douyin videos, built with '''Tauri'''. It provides a simple and efficient way to download videos from Douyin, a popular Chinese social media platform. The tool is available for '''Windows''', '''MacOS''', and '''Linux''' operating systems.
+
+== Overview ==
+The Douyin Downloader is a '''free''' and '''open-source''' software that allows users to download Douyin videos with ease. It is built using '''Tauri''', a framework for building '''cross-platform''' desktop applications. The tool has a simple and intuitive interface, making it easy for users to download their favorite Douyin videos.
+
+=== Features ===
+The Douyin Downloader has several key features, including:
+* '''Cross-platform''' support: The tool is available for '''Windows''', '''MacOS''', and '''Linux''' operating systems.
+* '''Easy to use''': The tool has a simple and intuitive interface, making it easy for users to download Douyin videos.
+* '''Fast download speeds''': The tool allows for fast download speeds, making it quick and easy to download videos.
+
+== Installation ==
+To install the Douyin Downloader, users can download the latest release from the [GitHub repository](https://github.com/lzdyes/douyin-downloader/releases). The tool supports '''Windows x64''', '''Linux x86_64''', and '''macOS 10.13+'''. Alternatively, users can build the tool themselves from the source code.
+
+=== System Requirements ===
+To run the Douyin Downloader, users will need to have the following system requirements:
+* '''Windows''': '''Webview2''' installed
+* '''MacOS''': '''macOS 10.13+'''
+* '''Linux''': '''Linux x86_64'''
+
+== Screenshots ==
+The Douyin Downloader has a simple and intuitive interface. Some screenshots of the tool in action can be seen below:
+[https://github.com/lzdyes/douyin-downloader/blob/main/docs/screenshots/windows_1.png]
+[https://github.com/lzdyes/douyin-downloader/blob/main/docs/screenshots/windows_2.png]
+[https://github.com/lzdyes/douyin-downloader/blob/main/docs/screenshots/windows_3.png]
+
+== External Links ==
+* [Tauri](https://github.com/tauri-apps/tauri): The framework used to build the Douyin Downloader.
+* [GitHub Repository](https://github.com/lzdyes/douyin-downloader): The official GitHub repository for the Douyin Downloader.
+* [Webview2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section): The Webview2 runtime required for the Douyin Downloader to run on Windows.

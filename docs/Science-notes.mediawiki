@@ -1,0 +1,28 @@
+Science-notes is a GitHub repository that provides a comprehensive online resource for science students and enthusiasts. The repository contains a collection of HTML files that cover various branches of science, including chemistry, physics, biology, and astronomy. The website features a dynamic periodic table, element pages, and sections dedicated to different scientific disciplines. This article provides an overview of the Science-notes repository, its features, and how to access its content.
+
+== Overview ==
+The Science-notes repository was created on December 18, 2025, and was last modified on the same day. The repository contains a total of 9 HTML files, each serving a specific purpose. The main portal of the website is the '''index.html''' file, which features a periodic table that links to dynamic element pages.
+
+=== Repository Structure ===
+The repository has the following structure:
+* '''index.html''': The main portal with a periodic table
+* '''element.html''': Dynamic element pages
+* '''chemistry.html''': Chemistry section
+* '''physics.html''': Physics section
+* '''biology.html''': Biology section
+* '''astronomy.html''': Astronomy section
+* '''experiments.html''': Experiments section
+* '''references.html''': References section
+* '''guestbook.html''': Guestbook with localStorage
+
+== Features ==
+The Science-notes repository offers several features that make it a valuable resource for science students and enthusiasts. Some of the key features include:
+* A dynamic '''periodic table''' that links to element pages
+* '''Element pages''' that provide detailed information about each element
+* Sections dedicated to different scientific disciplines, including '''chemistry''', '''physics''', '''biology''', and '''astronomy'''
+* An '''experiments''' section that provides instructions for conducting science experiments
+* A '''references''' section that lists sources used in the website
+* A '''guestbook''' that allows users to leave comments and feedback
+
+== Installation ==
+To access the content of the Science-notes repository, users can simply clone the repository and open the '''index.html''' file in a web browser. The website is designed to be self-contained, and all the necessary files are included in the repository. Users can also access the website by visiting the GitHub pages site, although this may require additional setup.

@@ -1,0 +1,25 @@
+Portal is a dedicated space within Nicholas Tritsaris’ retro web collection that serves as a gateway to experiments, side projects, and creative explorations. Designed with the same nostalgic aesthetic as the main hub, Portal acts as a launchpad for new ideas and interactive content. It is part of a broader retro web ecosystem, featuring a unique blend of '''retro theme''' elements and '''exploration'''-based navigation.
+
+== Overview ==
+Portal is a key component of the retro web collection, providing a '''gateway function''' that connects visitors to different projects, archives, and experimental pages in one place. The project is styled with early‑2000s web design elements to match the nostalgic vibe of the main site, creating an immersive experience for users.
+
+=== Key Aspects ===
+The Portal project has several key aspects, including:
+* '''Gateway Function''': Portal connects visitors to different projects, archives, and experimental pages in one place.
+* '''Retro Theme''': Styled with early‑2000s web design elements to match the nostalgic vibe of the main site.
+* '''Exploration''': Visitors can navigate through sub‑pages (like Portal Page 1, Portal Page 2, etc.) to discover unique content.
+* '''Part of the Collection''': Portal is integrated into the broader retro web ecosystem alongside projects like '''Net Atlas Ultimate''', '''Net Observation Project''', and '''MC Property Encyclopedia'''.
+
+== Features ==
+The Portal project features a range of interactive and experimental content, including:
+* A '''retro-themed''' interface, designed to evoke the nostalgia of early 2000s web design.
+* A '''gateway''' to various projects and archives, providing a single point of access for users.
+* '''Explorable''' sub-pages, allowing users to discover new and unique content.
+
+== Related Projects ==
+Portal is part of a larger retro web ecosystem, which includes projects such as:
+* [https://github.com/NicholasTritsaris/Net-Atlas-Ultimate Net Atlas Ultimate]
+* [https://github.com/NicholasTritsaris/Net-Observation-Project Net Observation Project]
+* [https://github.com/NicholasTritsaris/MC-Property-Encyclopedia MC Property Encyclopedia]
+
+Note: The above links are examples and may not be actual links to the related projects.

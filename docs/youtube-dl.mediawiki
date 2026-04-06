@@ -1,0 +1,57 @@
+youtube-dl is a '''command-line program''' to download videos from ''YouTube.com'' and other video sites. It is a free and open-source software written in ''Python''. The program provides an easy-to-use interface for downloading videos from various online platforms.
+
+== Overview ==
+youtube-dl is designed to be a simple and efficient way to download videos from the internet. It supports a wide range of video sites, including ''YouTube'', ''Vimeo'', and ''Dailymotion''. The program allows users to download videos in various formats, including ''MP4'', ''WebM'', and ''FLV''.
+
+== Features ==
+The key features of youtube-dl include:
+* Downloading videos from ''YouTube'' and other video sites
+* Supporting various video formats, including ''MP4'', ''WebM'', and ''FLV''
+* Allowing users to select the video quality and format
+* Providing an option to download subtitles and closed captions
+* Supporting ''HTTPS'' and ''HTTP'' protocols
+
+== Installation ==
+To install youtube-dl, users can follow these steps:
+* For ''UNIX'' users (''Linux'', ''macOS'', etc.), run the following command: <code>sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl</code> and <code>sudo chmod a+rx /usr/local/bin/youtube-dl</code>
+* For ''Windows'' users, download the [youtube-dl.exe file](https://yt-dl.org/latest/youtube-dl.exe) and place it in any location on their ''PATH''
+* Users can also install youtube-dl using ''pip'': <code>sudo -H pip install --upgrade youtube-dl</code>
+* ''macOS'' users can install youtube-dl using [Homebrew](https://brew.sh/): <code>brew install youtube-dl</code> or [MacPorts](https://www.macports.org/): <code>sudo port install youtube-dl</code>
+
+== Configuration ==
+youtube-dl provides various options for configuration, including:
+* Setting the output format and quality
+* Selecting the video codec and container
+* Enabling or disabling subtitles and closed captions
+* Setting the proxy server and user agent
+
+== Options ==
+The program provides various options for customizing the download process, including:
+* '''-f''', '''--format''' : Specify the video format
+* '''-b''', '''--bitrate''' : Specify the bitrate
+* '''-s''', '''--subtitle''' : Download subtitles
+* '''-c''', '''--closed-captions''' : Download closed captions
+
+== Output Template ==
+youtube-dl allows users to specify a custom output template using the '''-o''' option. The template can include various placeholders, such as '''%(title)s''', '''%(id)s''', and '''%(format)s'''.
+
+== Format Selection ==
+The program provides an option to select the video format using the '''-f''' option. Users can specify the format code, such as '''136''' for ''MP4'' or '''244''' for ''WebM''.
+
+== Video Selection ==
+youtube-dl allows users to select a specific video quality using the '''-b''' option. Users can specify the bitrate, such as '''500k''' for ''500 kbps''.
+
+== FAQ ==
+For frequently asked questions, please refer to the [youtube-dl FAQ page](https://ytdl-org.github.io/youtube-dl/faq.html).
+
+== Developer Instructions ==
+For instructions on how to contribute to the youtube-dl project, please refer to the [developer instructions](https://github.com/ytdl-org/youtube-dl/blob/master/CONTRIBUTING.md).
+
+== Embedding youtube-dl ==
+youtube-dl can be embedded in other applications using the '''youtube_dl''' module. For more information, please refer to the [youtube-dl API documentation](https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/__init__.py).
+
+== Bugs ==
+To report bugs or issues, please use the [youtube-dl issue tracker](https://github.com/ytdl-org/youtube-dl/issues).
+
+== Copyright ==
+youtube-dl is released under the [Unlicense](https://unlicense.org/).

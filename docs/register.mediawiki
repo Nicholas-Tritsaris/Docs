@@ -1,0 +1,22 @@
+== Overview ==
+The '''register''' repository is a service that allows developers to obtain a ''''.is-a.dev''' subdomain for their personal websites. This service provides a unique opportunity for developers to create a professional-looking online presence.
+
+=== Features ===
+The '''is-a.dev''' service offers the following features:
+* '''Custom subdomains''': Get a sweet-looking ''''.is-a.dev''' subdomain for personal websites.
+* '''Community support''': Join the [Discord server](https://discord.gg/is-a-dev-830872854677422150) for announcements, service updates, and downtime notifications.
+* '''Documentation''': Access the [documentation](https://docs.is-a.dev) for instructions on how to register and set up the subdomain.
+
+=== Installation ===
+To register for a ''''.is-a.dev''' subdomain, follow these steps:
+# '''Fork''' the [register repository](https://github.com/is-a-dev/register).
+# Follow the instructions on the [documentation](https://docs.is-a.dev) page.
+# Open a '''pull request (PR)''' and wait for it to be reviewed.
+# If changes are requested, make the specified changes to avoid rejection.
+# Once the '''PR''' is merged, the '''DNS records''' should be published.
+
+=== Community ===
+The '''is-a.dev''' community can be found on the [Discord server](https://discord.gg/is-a-dev-830872854677422150), where members can stay up-to-date with announcements, service updates, and downtime notifications. Not all announcements are posted on [GitHub](https://github.com/is-a-dev/register), so it's essential to join the Discord server for the latest information.
+
+=== Resources ===
+For a visual guide on how to register, check out [this blog post](https://blog.wharrison.com.au/2024/07/is-a-dev/). Additionally, the [README](https://github.com/is-a-dev/register/blob/main/README.md) file on the '''register''' repository provides more information on the service and its features.

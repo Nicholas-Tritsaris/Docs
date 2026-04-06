@@ -1,0 +1,28 @@
+EduBridge is a lightweight platform designed to connect students and teachers for various educational purposes, including assignments, messaging, and classroom collaboration. The platform aims to facilitate a seamless learning experience by providing a range of features and tools. This article provides an overview of the EduBridge platform, its features, and technical details.
+
+== Overview ==
+The EduBridge repository contains the starter code and documentation for the EduBridge web app, making it a valuable resource for developers and educators alike. By leveraging the power of web technologies, EduBridge seeks to '''bridge''' the gap between students, teachers, and educational resources.
+
+=== Features ===
+EduBridge boasts a variety of features that enhance the learning experience. These include:
+* '''Classrooms''': create and manage class groups, enabling teachers to organize their students and assignments efficiently.
+* '''Assignments''': create, submit, and grade assignments, streamlining the assessment process.
+* '''Messaging''': facilitate teacher-student and peer communication, fostering a sense of community and collaboration.
+* '''Resource Hub''': upload and share learning materials, providing a centralized repository of educational resources.
+* '''Analytics''': offer basic engagement and performance insights, helping teachers to track student progress and identify areas for improvement.
+
+== Technical Details ==
+The EduBridge platform is built using a range of technologies, including:
+* '''Frontend''': '''React''' (or alternative frameworks), providing a flexible and responsive user interface.
+* '''Backend''': '''Node.js''' + '''Express''' (or alternative backends), handling server-side logic and API interactions.
+* '''Database''': '''PostgreSQL''' / '''MongoDB''', storing and managing educational data.
+* '''CI''': '''GitHub Actions''', automating testing, building, and deployment processes.
+
+== Installation ==
+To get started with EduBridge, follow these steps:
+1. Clone the repository: <code>git clone https://github.com/Nicholas-Tritsaris/EduBridge.git</code>
+2. Change into the repository directory: <code>cd EduBridge</code>
+Further instructions are available in the repository's README file.
+
+== External Links ==
+For more information about the EduBridge project, visit the [https://github.com/Nicholas-Tritsaris/EduBridge GitHub repository].

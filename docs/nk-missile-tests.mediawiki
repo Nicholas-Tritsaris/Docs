@@ -1,0 +1,36 @@
+The '''nk-missile-tests''' repository is an interactive visualization of flight tests of all missiles launched by ''North Korea'' from 1984 to 2026. The real-time positions of ''North Korea'' 's satellites are also visualized on the globe. This project provides a comprehensive overview of ''North Korea'' 's missile program, allowing users to explore and analyze the data in a user-friendly and interactive way.
+
+== Overview ==
+The '''nk-missile-tests''' repository is based on data sourced from [the CNS North Korea Missile Test Database], which is the first database to record flight tests of all missiles launched by ''North Korea'' capable of delivering a payload of at least 500 kilograms (1102.31 pounds) a distance of at least 300 kilometers (186.4 miles). The database captures advancements in ''North Korea'' 's missile program by documenting all such tests since the first one occurred in April 1984, and will be routinely updated as events warrant.
+
+=== Features ===
+The '''nk-missile-tests''' visualization offers a range of features, including:
+* Interactive globe visualization
+* Real-time positions of ''North Korea'' 's satellites
+* Search function by date or test name
+* Filtering by outcome (SUCCESS, FAILURE, and UNKNOWN)
+* Filtering by missile name
+* Zooming and tilting capabilities
+* Histogram display
+* Timeline bar for selecting a year
+
+== Usage ==
+The '''nk-missile-tests''' visualization can be used in the following ways:
+* Mouse drag or swipe: Rotate the globe
+* Mouse wheel rotation or pinch in/out: Zoom in/out
+* Click or tap +/- buttons: Zoom in/out
+* Shift key + Mouse drag or three-finger swipe: Tilt up/down
+* Click or tap the tilt buttons: Tilt up/down
+* Click or tap a test label on the map: Select a test
+* Enter a date or test name in the text field: Search for a test
+* Click or tap ABOUT button: See the information on the database and references
+* Click, tap or drag the timeline bar: Select a year
+* Click or tap the graph icon: Show or hide the histogram
+* Click or tap SUCCESS, FAILURE and UNKNOWN buttons: Filter tests out by outcome
+* Click or tap missile check marks: Filter tests out by missile name
+
+== About Data ==
+The data for this visualization are sourced from [the CNS North Korea Missile Test Database], which is maintained by the [NTI]. The database doesn't include the exact landing locations, so bearing information from other sources such as [Japan Ministry of Defense] is used, and landing locations are calculated based on locations of launching facilities and distances traveled.
+
+== Live Demo ==
+A [Live Demo] of the '''nk-missile-tests''' visualization is available at [https://nagix.github.io/nk-missile-tests].

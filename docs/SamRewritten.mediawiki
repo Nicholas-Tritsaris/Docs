@@ -1,0 +1,18 @@
+SamRewritten is a modern '''Steam''' achievements manager for '''Windows''' and '''Linux'''. It allows users to unlock and relock achievements on their '''Steam''' account, as well as edit stats for games and apps that expose them. The project is heavily inspired by other similar projects, such as '''Steam Achievements Manager''' by Gibbed and '''Samira''' by jsnli. SamRewritten is not affiliated with '''Valve Corporation''' or '''Microsoft''', and is available for download on the project's '''GitHub''' page.
+
+== Overview ==
+SamRewritten is a tool designed to provide users with more control over their '''Steam''' achievements. It can be used to unlock and relock achievements, as well as edit stats for games and apps that support it. The project is open-source and available for both '''Windows''' and '''Linux''' platforms.
+
+=== Features ===
+* Unlock and relock '''Steam''' achievements
+* Edit stats for games and apps that expose them
+* Available for '''Windows''' and '''Linux''' platforms
+* Open-source and free to use
+
+== Installation ==
+Downloads are available on the [https://github.com/PaulCombal/SamRewritten/releases release tab] for '''Windows''' (installer) and '''Linux''' (AppImage). For '''Windows''', the recommended way to run SamRewritten is via the official installer, which can be downloaded from the '''Releases''' page.
+
+== Acknowledgements ==
+The SamRewritten project is heavily inspired by other wonderful projects, such as [https://github.com/gibbed/SteamAchievementManager Steam Achievements Manager] by Gibbed and [https://github.com/jsnli/Samira Samira] by jsnli. The project's contributors would like to thank the contributors of these projects, as well as the users and stargazers who have supported SamRewritten. 
+
+''Note: Steam and Windows are trademarks of their respective owners, Valve Corporation and Microsoft.''

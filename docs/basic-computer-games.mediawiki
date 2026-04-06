@@ -1,0 +1,25 @@
+== Overview ==
+The '''basic-computer-games''' repository is an updated version of the classic ''BASIC Computer Games'' book, featuring well-written examples in a variety of common '''memory safe''' and '''general purpose scripting languages'''. The project aims to port the original games to modern languages, making them accessible to a new generation of programmers. The repository is hosted on [GitHub] and is part of a larger effort to revive and update the classic book for the 21st century.
+
+=== History ===
+The original ''BASIC Computer Games'' book was the first million-selling computer book, and its games have been enjoyed by many over the years. The book is now being updated for 2022 and beyond, with a focus on '''memory safe''' and '''general purpose scripting languages'''. The original book can be found on [Archive.org], and the original games can be played in a browser on [Trophy Press].
+
+=== Features ===
+The repository features a collection of games from the original book, each with its own subfolder containing ports to various languages. The languages included are:
+* '''C#'''
+* '''Java'''
+* '''JavaScript'''
+* '''Kotlin'''
+* '''Lua'''
+* '''Perl'''
+* '''Python'''
+* '''Ruby'''
+* '''Rust'''
+* '''VB.NET'''
+These languages were chosen based on the [2022 TIOBE index] of top languages that are '''memory safe''' and '''general purpose scripting languages'''. The repository also includes a discussion forum on [Discourse] where contributors can discuss the project and share their work.
+
+=== Project Structure ===
+The repository is organized into folders, each containing a game from the original book. Each game folder has subfolders for each language, containing the ported code. The original '''BASIC''' source code has been normalized to run against '''Vintage Basic''' circa 2009, thanks to the efforts of Lyle Kopnicky. The games are designed to be run with '''CAPS LOCK''' on, as they were originally designed for capital-letter input.
+
+=== Discussion ===
+The project has a discussion forum on [Discourse], where contributors can discuss the project, share their work, and get feedback from others. The forum is also used to track the project's progress and to plan future developments.

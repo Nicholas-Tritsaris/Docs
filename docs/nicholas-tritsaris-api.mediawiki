@@ -1,0 +1,49 @@
+== Overview ==
+The '''nicholas-tritsaris-api''' repository is a Virtual Portfolio API that generates an '''openapi.yaml''' file in '''OpenAPI 3.0.3''' format from public GitHub repositories and '''README''' files. This repository is designed for '''GitBook URL import''' so the spec can render as a polished, interactive developer portal and refresh automatically as projects change.
+
+=== Description ===
+The repository uses the '''GitHub API''' to fetch all public repositories for '''Nicholas-Tritsaris''' and their corresponding '''README.md''' files. It then utilizes the '''Groq API''' ('''llama3-70b-8192''') to analyze each project and generate a professional summary, key features, tech stack used, mock API responses, and suggested project-specific subpaths.
+
+== Features ==
+The '''nicholas-tritsaris-api''' repository has the following features:
+* Fetches all public repositories for '''Nicholas-Tritsaris''' using the '''GitHub API'''
+* Fetches each repository's '''README.md'''
+* Uses the '''Groq API''' to analyze each project and generate:
+ + A professional summary
+ + Key features
+ + Tech stack used
+ + Mock ''API responses'' for each project
+ + Suggested project-specific subpaths
+* Builds a single '''openapi.yaml''' file compliant with '''OpenAPI 3.0.3'''
+* Updates the spec automatically with '''GitHub Actions''' every 6 hours
+
+=== Generated API Structure ===
+The generated '''OpenAPI''' spec documents a portfolio as if it were an API. The core endpoints include:
+* '''GET /profile''' — bio, skills, social links (hardcoded in the script)
+* '''GET /repos''' — all public repositories with brief summaries
+* '''GET /repos/{name}''' — detailed information (summary, tech stack, links) for a specific repo
+* '''GET /repos/{name}/*''' — (e.g., '''/repos/{name}/features''', '''/repos/{name}/usage''') AI-generated specific sub-paths for each project based on its '''README''' content
+
+== Installation ==
+To run the generator locally, you'll need to set the environment variables:
+* '''GROQ_API_KEY''' — your '''Groq API''' key
+You can also use '''GitHub Actions''' to automate the process, which provides the '''GITHUB_TOKEN''' automatically to workflows to fetch repositories and push updates.
+
+== Repository Layout ==
+The repository layout is as follows:
+```text
+.
+├── .github/
+│   └── workflows/
+│       └── update-api.yml
+├── generate_openapi.py
+├── openapi.yaml
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+== Required Secrets ==
+The following repository secrets are required:
+* '''GROQ_API_KEY''' — your '''Groq API''' key
+The '''GITHUB_TOKEN''' is provided automatically in '''GitHub Actions'''.

@@ -1,0 +1,27 @@
+The '''Minecraft Property Encyclopedia''' is a comprehensive online tool for viewing, filtering, and sorting all blocks, entities, and items by their properties in the popular video game ''Minecraft''. The encyclopedia is hosted on a website, [https://JoakimThorsen.github.io/MCPropertyEncyclopedia], and is maintained by a small group of volunteers. It provides a powerful and easy-to-use platform for accessing information about the game's vast array of blocks, entities, and items.
+
+== Overview ==
+The '''Minecraft Property Encyclopedia''' is a community-driven project that aims to compile and organize information about the properties of blocks, entities, and items in ''Minecraft''. The project is open to contributions, corrections, and suggestions from the community, and encourages users to participate through its public [https://discord.gg/RUEVmTahYg Discord server] or by submitting pull requests and issue reports on the project's [https://github.com/JoakimThorsen/MCPropertyEncyclopedia GitHub repository].
+
+=== Features ===
+The '''Minecraft Property Encyclopedia''' offers several key features, including:
+* '''Property selection''': A dropdown menu that allows users to select from a wide range of properties for each page, with a basic case-insensitive search feature.
+* '''Filtering''': The ability to filter and narrow down the list of entries based on property values.
+* '''Sorting''': The option to sort the list by any property, including both numerical and text values.
+* '''Search''': A main search bar that enables users to search for specific entries.
+
+== Usage ==
+To use the '''Minecraft Property Encyclopedia''', users can follow these steps:
+* Select the desired properties from the dropdown menu.
+* Apply filters to narrow down the list of entries.
+* Sort the list by a specific property.
+* Use the search bar to find specific entries.
+
+== Community Involvement ==
+The '''Minecraft Property Encyclopedia''' relies on community involvement to maintain and improve its accuracy and completeness. Users can contribute to the project by:
+* Joining the public [https://discord.gg/RUEVmTahYg Discord server] to discuss updates, suggestions, and corrections.
+* Submitting pull requests and issue reports on the project's [https://github.com/JoakimThorsen/MCPropertyEncyclopedia GitHub repository].
+* Checking the [https://JoakimThorsen.github.io/MCPropertyEncyclopedia/about.html About Page] for a list of contributors.
+
+== Notes ==
+The '''Minecraft Property Encyclopedia''' is an in-development project, and some properties may not be fully automated or may be manually curated. As a result, some information may be incomplete or incorrect, despite the efforts of the contributors. Users are encouraged to report corrections and suggestions to help improve the project.

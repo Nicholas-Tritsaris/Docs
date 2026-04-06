@@ -1,0 +1,28 @@
+The '''douyin_scraper''' is a Python-based tool designed to scrape metadata and download videos from Douyin, a Chinese social media platform. It takes a list of Douyin video URLs as input, filters the metadata based on user-specified keys, and outputs a CSV file containing the filtered metadata along with the downloaded videos. The tool utilizes the '''douyin-tiktok-scraper''' library to interact with the Douyin API.
+
+== Overview ==
+The '''douyin_scraper''' is a command-line tool that provides a simple and efficient way to collect and analyze Douyin video metadata. It is designed to be easy to use, with a minimal number of dependencies and a straightforward installation process.
+
+=== Features ===
+The '''douyin_scraper''' offers the following key features:
+* '''Metadata filtering''': Users can specify which metadata keys to extract from the raw metadata using a '''filter.txt''' file.
+* '''Video downloading''': The tool downloads the videos corresponding to the input URLs and stores them in a separate folder.
+* '''CSV output''': The filtered metadata is output in a CSV file, making it easy to import and analyze the data using other tools.
+
+== Installation ==
+To install the '''douyin_scraper''', follow these steps:
+# Clone the repository using '''git clone https://github.com/Clemapfel/douyin_scraper.git'''
+# Install the required dependencies using '''pip install json''', '''pip install csv''', '''pip install requests''', and '''pip install douyin-tiktok-scraper'''
+
+== Usage ==
+To use the '''douyin_scraper''', follow these steps:
+### 1. Collect Video URLs
+Create a file named '''video_ids.txt''' containing the Douyin video URLs, one per line.
+### 2. Specify Metadata Filter
+Create a file named '''filter.txt''' containing the metadata keys to extract, one per line.
+### 3. Execute Script
+Run the script using '''python3 scrape.py video_ids.txt filter.txt'''
+### 4. Collect Output
+The script will create a new folder in '''./out''' containing the downloaded videos and metadata, as well as a CSV file with the filtered metadata.
+
+Note: For a full list of allowed metadata keys, run the script once and inspect one of the '''raw.json''' files in '''douyin_scraper/out'''.

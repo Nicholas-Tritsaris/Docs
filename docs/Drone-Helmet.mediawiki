@@ -1,0 +1,29 @@
+The Drone-Helmet is a wearable, fully offline "drone" interface with hardware-enforced safety. It is designed as a secure, consent-focused wearable restraint interface, featuring a local OLED display, a 3.5mm audio interface, a solenoid-driven physical lock, a torque sensor for engagement, and a battery-health monitoring system. This device prioritizes safety and security, with a focus on local, offline operation.
+
+== Overview ==
+The Drone-Helmet is a complex device with multiple components working together to provide a secure and safe experience. It features a '''local OLED display''' for visual feedback, a '''3.5mm audio interface''' for audio cues, a '''solenoid-driven physical lock''' for restraint, a '''torque sensor''' for detecting engagement, and a '''battery-health monitoring system''' for ensuring safe operation.
+
+=== Key Safety Features ===
+The Drone-Helmet includes several key safety features, including:
+* '''Dual-Release Mechanism''': Requires both strap buckle unlatching and mouth-cap removal for device removal.
+* '''Torque Threshold''': Lock only engages when torque ≥ 2.2 N·m is detected.
+* '''Battery Safety''': Lock is disabled if battery voltage drops below 3.4 V.
+* '''Fail-Open Design''': Solenoid fails open if power is lost or the controller hangs.
+* '''Offline Only''': No cloud, no telemetry, local '''BLE-only communication'''.
+
+== Features ==
+The Drone-Helmet has several features that make it a unique and secure device. These include:
+* A '''local-only companion app''' that provides consent and triggers media patterns via the 0xBBBB GATT profile.
+* A '''calibration protocol''' for the torque sensor and battery monitoring system.
+* A '''firmware''' that can be flashed to an ESP32-WROOM-32.
+* A set of '''hardware components''' that can be printed and assembled according to the provided BOM.
+
+== Installation ==
+To install and use the Drone-Helmet, follow these steps:
+# '''Calibration''': Follow the calibration protocol to calibrate the torque sensor and battery monitoring system.
+# '''Firmware''': Flash the firmware to an ESP32-WROOM-32.
+# '''Hardware''': Print and assemble the hardware components according to the provided BOM.
+# '''App''': Use the local-only companion app to provide consent and trigger media patterns.
+
+== Safety Warning ==
+''Always'' ensure the dual-release mechanism is tested and functional before use. ''Never'' bypass the torque sensor or battery safety checks. Failure to follow these safety guidelines can result in injury or damage to the device.

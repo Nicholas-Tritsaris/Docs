@@ -1,0 +1,17 @@
+The R3VENGE-DLL-INJECTOR is a software tool designed to inject '''DLL''' files into games, including those protected by anti-cheat systems such as '''EAC''' and '''BATTLE EYE'''. This injector claims to be ''undetected'' and uses the '''LoadLibraryA''' method from '''kernel32.dll''' to achieve this. The tool is currently at '''Version 1.0''' and was created by '''r3vengerx0'''.
+
+== Overview ==
+The R3VENGE-DLL-INJECTOR is a unique tool that allows users to inject '''DLL''' files into games without being detected by anti-cheat systems. The use of '''kernel32.dll''' and the '''LoadLibraryA''' method sets it apart from other injectors, making it potentially more effective at evading detection.
+
+=== Features ===
+* '''Undetected injection''': The R3VENGE-DLL-INJECTOR claims to be able to inject '''DLL''' files into games without being detected by anti-cheat systems.
+* '''Support for anti-cheat protected games''': The tool supports injection into games protected by '''EAC''', '''BATTLE EYE''', and other anti-cheat systems.
+* '''Use of kernel32.dll and LoadLibraryA''': The injector uses the '''LoadLibraryA''' method from '''kernel32.dll''' to inject '''DLL''' files, making it potentially more effective at evading detection.
+
+== Installation ==
+There is no information available on the installation process for the R3VENGE-DLL-INJECTOR in the provided '''README''' content. Users may need to consult external sources or the repository's issues page for guidance on installing and using the tool.
+
+== See Also ==
+* [[DLL injection]]
+* [[Anti-cheat systems]]
+* [GitHub Repository] for the R3VENGE-DLL-INJECTOR

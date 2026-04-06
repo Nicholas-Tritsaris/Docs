@@ -1,0 +1,16 @@
+Games1 is a '''GitHub repository''' that offers a collection of 200 '''web-based mini games''', with the '''source code''' made available under an '''open-source''' license, allowing users to '''download''' and utilize the games. The repository is designed to provide a comprehensive set of '''small games''' that can be easily accessed and played on the '''web'''. This article provides an overview of the Games1 repository, its features, and how to access the games.
+
+== Overview ==
+The Games1 repository is a '''collection of web-based games''' that can be played directly in a '''web browser'''. The repository contains a wide range of games, including '''puzzle games''', '''action games''', and '''strategy games'''. The games are designed to be '''easy to play''' and '''fun''', making them accessible to a wide range of users.
+
+=== Features ===
+The Games1 repository offers several key features, including:
+* A '''large collection of games''': The repository contains 200 '''mini games''', providing users with a wide range of options to choose from.
+* '''Open-source code''': The '''source code''' for the games is made available, allowing users to '''modify''' and '''customize''' the games to suit their needs.
+* '''Easy to access''': The games can be played directly in a '''web browser''', making them easily accessible to users.
+
+== Installation ==
+To access the games in the Games1 repository, users can simply '''visit the repository''' on '''GitHub''' and '''download''' the games. The games can be played directly in a '''web browser''', without the need for any '''additional software''' or '''installation'''. For more information on how to access the games, users can refer to the '''README''' file in the repository.
+
+== External Links ==
+For more information on the Games1 repository, users can visit the [GitHub repository] and review the '''README''' file for instructions on how to access and play the games.

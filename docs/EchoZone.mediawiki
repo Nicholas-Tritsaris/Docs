@@ -1,0 +1,26 @@
+EchoZone is a ''location-based'', '''anonymous''' social media platform inspired by [Yik Yak], designed for ''real-time'' local discussions and community interaction. It allows users to post short messages visible only within a defined ''geographic radius''. The platform is currently in the early stages of development.
+
+== Overview ==
+EchoZone is a social media platform that enables users to share their thoughts and ideas anonymously, with a focus on ''local'' discussions and community engagement. The platform's core concept is to provide a space for users to interact with each other in ''real-time'', without the need for personal identities or profiles.
+
+=== History ===
+The idea behind EchoZone is inspired by the now-defunct [Yik Yak] platform, which allowed users to post anonymous messages that could be viewed by others within a certain ''geographic area''. EchoZone aims to build upon this concept, with a focus on ''community interaction'' and ''real-time'' updates.
+
+== Features ==
+The EchoZone platform offers several key features, including:
+* '''Anonymous posting''': users can post messages without revealing their identities
+* '''Location-based feed''': posts are visible only within a defined ''geographic radius''
+* '''Upvotes and downvotes''': users can interact with posts by voting them up or down
+* '''Real-time updates''': the platform provides ''real-time'' updates, allowing users to engage in live discussions
+* '''Content moderation tools''': the platform includes tools to moderate and manage content, ensuring a safe and respectful environment for users
+
+== Technical Details ==
+The planned tech stack for EchoZone includes:
+* '''Frontend''': [React] / [React Native]
+* '''Backend''': [Node.js] + [Express]
+* '''Realtime Data''': [Firebase] / [WebSockets]
+* '''Maps & Location''': [Mapbox]
+* '''Authentication''': '''Anonymous''' / '''Device-based'''
+
+== Status ==
+The EchoZone platform is currently in the ''early development'' stage, with a focus on building the core features and functionality. As the platform evolves, it is expected to provide a unique and engaging experience for users, with a focus on ''local'' discussions and community interaction.
