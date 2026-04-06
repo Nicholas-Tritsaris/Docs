@@ -1,0 +1,54 @@
+name: Convert MediaWiki to Markdown
+
+on:
+  push:
+    paths:
+      - '**/*.mediawiki'
+      - '.github/workflows/convert-mediawiki.yml'
+      - 'convert_mediawiki.py'
+  pull_request:
+    paths:
+      - '**/*.mediawiki'
+      - '.github/workflows/convert-mediawiki.yml'
+      - 'convert_mediawiki.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Run converter
+        run: python3 convert_mediawiki.py .
+
+      - name: Commit converted Markdown files
+        if: github.event_name != 'pull_request'
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add '*.md' '**/*.md' || true
+          git commit -m "chore: convert mediawiki files to markdown"
+          git push
