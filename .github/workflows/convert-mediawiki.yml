@@ -5,12 +5,12 @@ on:
     paths:
       - '**/*.mediawiki'
       - '.github/workflows/convert-mediawiki.yml'
-      - 'convert_mediawiki.py'
+      - 'scripts/convert_mediawiki.py'
   pull_request:
     paths:
       - '**/*.mediawiki'
       - '.github/workflows/convert-mediawiki.yml'
-      - 'convert_mediawiki.py'
+      - 'scripts/convert_mediawiki.py'
   workflow_dispatch:
 
 permissions:
@@ -37,7 +37,7 @@ jobs:
           sudo apt-get install -y pandoc
 
       - name: Run converter
-        run: python3 convert_mediawiki.py .
+        run: python3 scripts/convert_mediawiki.py .
 
       - name: Commit converted Markdown files
         if: github.event_name != 'pull_request'
