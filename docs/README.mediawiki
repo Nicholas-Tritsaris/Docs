@@ -1,0 +1,5 @@
+== Documentation ==
+Welcome to the project documentation for Nicholas Tritsaris. This documentation is automatically generated using Groq and the GitHub API.
+
+== Navigation ==
+* [[Projects|Browse all project repositories]]
